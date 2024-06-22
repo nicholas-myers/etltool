@@ -2,4 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+nav a {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding:  1em;
+}
+
+.active-link {
+  background-color: black;
+  color: white;
+}
+
+main, .instructions {
+  padding: 2em;
+}
+
+.code-block {
+  border: 2px solid navy;
+  background-color: lightblue;
+  color: darkslateblue;
+  resize: none;
+  width: 35em;
+  height: 12em;
+  text-decoration: none;
 }
