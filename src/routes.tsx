@@ -1,7 +1,7 @@
 import App from "./App";
 import Extract from "./components/Extract";
 import Load from "./components/Load";
-import Transfer from "./components/Transfer";
+import Transform from "./components/Transform";
 
 export const routes = [
     {
@@ -13,8 +13,8 @@ export const routes = [
                 element: <Extract />
             },
             {
-                path: "transfer",
-                element: <Transfer />
+                path: "transform",
+                element: <Transform />
             },
             {
                 path: "load",
