@@ -23,10 +23,10 @@ function App() {
         }>
           Extract
         </NavLink>
-        <NavLink to="transfer" className={({ isActive }) =>
+        <NavLink to="transform" className={({ isActive }) =>
           isActive ? "active-link" : ""
         }>
-          Transfer
+          Transform
         </NavLink>
         <NavLink to="load" className={({ isActive }) =>
           isActive ? "active-link" : ""
