@@ -1,13 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom';
 
 function App() {
-  const reformattedInfo = {
-    id: "NMyers3070",
-    firstName: "Nicholas",
-    lastName: "Myers",
-    phone: 3608313070,
-    email: "korefucius00@gmail.com"
-}
+  
 return (
   <div className="App">
     <div className="instructions">
