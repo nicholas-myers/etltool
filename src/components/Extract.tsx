@@ -5,7 +5,7 @@ const Extract = () => {
     <contact>
         <id>1</id>
         <fname>Nick</fname>
-        <lname>Myers</lname>
+        <lname>Meyers</lname>
         <phone>3608313070</phone>
         <email>korefucius00@gmail.com</email>
     </contact>`
